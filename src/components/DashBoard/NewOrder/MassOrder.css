@@ -1,0 +1,21 @@
+.massorder {
+    width: 90%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 40px;
+}
+
+.massorder>textarea {
+    width: 100%;
+    border: 1px solid #000000;
+    border-radius: 6px;
+}
+
+@media screen and (max-width: 768px) {
+    .massorder {
+        width: 100%;
+    }
+
+}
