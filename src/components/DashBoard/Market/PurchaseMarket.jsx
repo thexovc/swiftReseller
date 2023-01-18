@@ -14,7 +14,6 @@ const PurchaseMarket = () => {
                     <p>jamesbatman@gmail.com</p>
                 </div>
 
-
                 <p className='hidden md:flex'>IG Accounts | Registered in 03.2020. Email included (original). An avatar and 5 posts are added. Resgistered from the RU IP.</p>
 
                 <div className="purchasemarket__card__form hidden md:flex">

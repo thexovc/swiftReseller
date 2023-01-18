@@ -1,0 +1,32 @@
+.app__main {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.sidebar__main__con {
+    width: 20%;
+}
+
+.app__routes {
+    width: 80%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .app__main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+    .sidebar__main__con {
+        width: 100%;
+    }
+
+    .app__routes {
+        width: 100%;
+    }
+}
