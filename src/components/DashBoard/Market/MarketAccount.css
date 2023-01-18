@@ -1,0 +1,107 @@
+.marketaccount {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.marketaccount__icon {
+    display: flex;
+    gap: 10px;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.marketaccount__category {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+.marketaccount__category>h1 {
+    font-size: 24px;
+}
+
+.marketaccount__card__con {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    gap: 5px;
+    box-shadow: 23.7136px 21.5578px 43.1156px rgba(0, 0, 0, 0.25);
+}
+
+.marketaccount__card__img {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.marketaccount__card__img>img {
+    height: 50px;
+    width: 50px;
+    border-radius: 12px;
+}
+
+.marketaccount__card__text {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.marketaccount__card__order {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.marketaccount__card__order>button {
+    background: #F0884D;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.marketaccount__card__order>input {
+    width: 80%;
+    border: 2.15578px solid #777777;
+    border-radius: 4px;
+    text-align: center;
+    padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .marketaccount {
+        width: 100%;
+    }
+
+    .marketaccount__card__con {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .marketaccount__card__text {
+        width: 95%;
+    }
+
+
+    .marketaccount__card__order {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+    }
+
+    .marketaccount__card__img {
+        display: none;
+    }
+
+}

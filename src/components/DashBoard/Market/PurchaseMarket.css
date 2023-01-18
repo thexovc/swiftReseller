@@ -1,0 +1,104 @@
+.purchasemarket {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+.purchasemarket__card {
+    width: 70%;
+    background: #C8D7FF;
+    box-shadow: 11px 10px 20px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+}
+
+.purchasemarket__card__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 18px;
+}
+
+
+.purchasemarket__card__form__input {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.purchasemarket__card__form__input>label {
+    width: 10%;
+    display: flex;
+    font-size: 18px;
+}
+
+
+.purchasemarket__card__form__input>input {
+    width: 60%;
+    border: 1px solid #777777;
+    background: #C8D7FF;
+    padding: 10px;
+}
+
+.purchasemarket__card__button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.purchasemarket__card__button>button {
+    padding: 15px 40px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.purchasemarket__card__button2 {
+    display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .purchasemarket__card {
+        width: 95%;
+        background: #C8D7FF;
+        box-shadow: 11px 10px 20px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 40px;
+    }
+
+    .purchasemarket__card__form {
+        display: none;
+    }
+
+    .purchasemarket__card__button {
+        display: none;
+    }
+
+    .purchasemarket__card__button2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .purchasemarket__card__button2>button {
+        padding: 15px 40px;
+        border-radius: 30px;
+        color: white;
+        font-weight: bold;
+    }
+
+
+
+}

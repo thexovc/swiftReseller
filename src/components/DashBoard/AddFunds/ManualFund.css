@@ -1,0 +1,49 @@
+.manualfund {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.manualfund>.onlinefund__option {
+    padding: 15px;
+}
+
+.manualfund__card__con {
+    width: 100%;
+    display: flex;
+}
+
+.manualfund__card {
+    background: #E44136;
+    padding: 20px 20px;
+    margin-left: 40px;
+    width: 70%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.manualfund__card>.onlinefund__option {
+    padding: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    .manualfund__card__con {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .manualfund__card {
+        width: 90%;
+        padding: 20px 20px;
+        margin-left: 0;
+    }
+
+
+}

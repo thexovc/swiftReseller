@@ -1,0 +1,183 @@
+.ticket {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ticket__h1 {
+    width: 100%;
+    padding: 10px 20px;
+    background: #2A3B68;
+    display: flex;
+}
+
+.ticket__h1>h1 {
+    color: white;
+    font-size: 24px;
+}
+
+.ticket__msg {
+    width: 100%;
+
+    background: #C8D7FF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ticket__msg>h1 {
+    width: 80%;
+    padding: 10px 20px;
+}
+
+.ticket__msg>button {
+    width: 20%;
+    background: #E7DFDF;
+    border: 1.37656px solid #777777;
+    border-radius: 12px;
+}
+
+.ticket__msg>h1 {
+    color: color;
+    font-size: 24px;
+}
+
+.ticket__con {
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    margin-bottom: 20px;
+
+}
+
+.ticket__send {
+    margin-top: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background: #FFFFFF;
+    padding-bottom: 20px;
+    box-shadow: 14.6206px 13.2915px 26.5829px rgba(0, 0, 0, 0.25);
+
+}
+
+.ticket__send__con {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+}
+
+.ticket__send__con>select {
+    padding: 10px 10px;
+    border: 2.5px solid #777777;
+    border-radius: 7.97488px;
+}
+
+.ticket__send__con>input {
+    padding: 10px 10px;
+    border: 2.5px solid #777777;
+    border-radius: 7.97488px;
+}
+
+.ticket__send__con>textarea {
+    padding: 10px 10px;
+    border: 2.5px solid #777777;
+    border-radius: 7.97488px;
+}
+
+.ticket__list {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding-top: 20px;
+}
+
+.ticket__list>.ticket__h1>h1 {
+    width: 80%;
+    font-size: 24px;
+    padding: 5px 30px;
+}
+
+.ticket__list__card {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    padding: 20px 20px;
+    background: #081123;
+    box-shadow: 15.1421px 13.7656px 27.5312px rgba(0, 0, 0, 0.25);
+    color: white;
+    align-items: center;
+}
+
+.ticket__list__card__img {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.ticket__list__card__img>img {
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+}
+
+.ticket__list__card__text {
+    width: 70%;
+}
+
+.ticket__status {
+    background: red;
+    color: white;
+    text-align: center;
+}
+
+
+.ticket__pagination {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    gap: 5px;
+}
+
+.ticket__pagination>p {
+    padding: 10px;
+    border: 1px dotted gray;
+}
+
+@media screen and (max-width: 768px) {
+
+    .ticket__list {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        padding: 20px 10px;
+    }
+
+    .ticket__con {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-bottom: 20px;
+
+    }
+
+    .ticket__send {
+        width: 100%;
+    }
+
+    .ticket__list {
+        width: 100%;
+    }
+
+    .ticket__status>p {
+        width: 100%;
+        background: red;
+    }
+
+}

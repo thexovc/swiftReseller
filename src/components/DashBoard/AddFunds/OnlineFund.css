@@ -1,0 +1,89 @@
+.onlinefund {
+    display: flex;
+    width: 100%;
+    padding-bottom: 40px;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.onlinefund__option {
+    padding: 0px 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 40px;
+}
+
+.onlinefund__payment {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.onlinefund__payment>select {
+    padding: 10px 10px;
+    border: 1px solid #777777;
+    border-radius: 6px;
+}
+
+.onlinefund__amount {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.onlinefund__amount>span {
+    display: flex;
+    width: 100%;
+    border-radius: 6px;
+
+}
+
+.onlinefund__amount>span>label {
+    padding: 10px;
+    background: #D9D9D9;
+    border: 1px solid #777777;
+}
+
+.onlinefund__amount>span>input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #777777;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.onlinefund__pay {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.onlinefund__pay>button {
+    background: #3D954B;
+    border-radius: 20px;
+    font-size: 24px;
+    color: white;
+    padding: 15px 100px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .onlinefund__option {
+        padding: 0px 40px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        gap: 40px;
+    }
+
+    .onlinefund__pay>button {
+        background: #3D954B;
+        border-radius: 20px;
+        font-size: 24px;
+        color: white;
+        padding: 15px 70px;
+    }
+
+
+}
