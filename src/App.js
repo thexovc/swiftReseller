@@ -7,6 +7,7 @@ import Market from './Pages/DashBoard/Market/Market';
 import NewOrder from './Pages/DashBoard/NewOrder/NewOrder';
 import Ticket from './Pages/DashBoard/Ticket/Ticket';
 import './App.css'
+import Profile from './Pages/DashBoard/Profile/Profile';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
             <Route path='/addfund' element={<AddFunds />} />
             <Route path='/ticket' element={<Ticket />} />
             <Route path='/market' element={<Market />} />
+            <Route path='/profile' element={<Profile />} />
             <Route path='/purchase_market' element={<PurchaseMarket />} />
             <Route path='/neworder' element={<NewOrder />} />
           </Routes>
