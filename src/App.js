@@ -8,6 +8,7 @@ import NewOrder from './Pages/DashBoard/NewOrder/NewOrder';
 import Ticket from './Pages/DashBoard/Ticket/Ticket';
 import './App.css'
 import Profile from './Pages/DashBoard/Profile/Profile';
+import Services from './Pages/DashBoard/Services/Services';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
             <Route path='/ticket' element={<Ticket />} />
             <Route path='/market' element={<Market />} />
             <Route path='/profile' element={<Profile />} />
+            <Route path='/service' element={<Services />} />
             <Route path='/purchase_market' element={<PurchaseMarket />} />
             <Route path='/neworder' element={<NewOrder />} />
           </Routes>

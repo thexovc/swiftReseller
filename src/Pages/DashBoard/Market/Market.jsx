@@ -4,8 +4,8 @@ import './Market.css'
 
 const Market = () => (
     <div className='market'>
-        {/* <MarketAccount /> */}
-        <PurchaseMarket />
+        <MarketAccount />
+        {/* <PurchaseMarket /> */}
     </div>
 )
 
