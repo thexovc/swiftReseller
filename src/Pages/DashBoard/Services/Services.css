@@ -1,3 +1,143 @@
 .service {
+    width: 90%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.service__search {
     width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.service__input {
+    border: 1.34171px solid #777777;
+    border-radius: 4px;
+    width: 50%;
+    /* padding: 10px; */
+}
+
+.service__input>span>input {
+    width: 100%;
+    /* height: 100%; */
+    padding: 10px;
+}
+
+.service__select {
+
+    width: 50%;
+}
+
+.service__select>select {
+    width: 100%;
+    padding: 12px;
+    border: 1.34171px solid #777777;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.service__filter {
+    padding: 20px;
+    background: #2A3B68;
+    color: white;
+    font-weight: bold;
+}
+
+.service__cat {
+    margin-top: 20px;
+    display: 100%;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 14.9067px 13.5515px 27.103px rgba(0, 0, 0, 0.25);
+}
+
+.service__cat__title {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+    background: #C8D7FF;
+}
+
+.service__cat__table__name {
+    display: flex;
+    width: 100%;
+    padding: 20px 10px;
+    background: #2A3B68;
+    color: white;
+    font-weight: bold;
+}
+
+.service__cat__table__name>p {
+    width: 20%;
+}
+
+.service__cat__table__name>h1 {
+    width: 60%;
+}
+
+.service__cat__table {
+    display: flex;
+    width: 100%;
+    padding: 20px 10px;
+    justify-content: center;
+}
+
+.service__cat__table>p {
+    width: 20%;
+}
+
+.service__cat__table>h1 {
+    width: 60%;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .service {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .service__cat__table__name {
+        display: flex;
+        width: 100%;
+        padding: 10px 10px;
+
+        font-size: 12px;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .service__cat__table__name>h1 {
+        width: 20%;
+    }
+
+    .service__cat__table__name>p {
+        width: 20%;
+        text-align: center;
+    }
+
+    .service__cat__table {
+        display: flex;
+        width: 100%;
+        padding: 10px 10px;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .service__cat__table>p {
+        width: 20%;
+    }
+
+    .service__cat__table>h1 {
+        width: 20%;
+        text-align: center;
+    }
+
+
 }
