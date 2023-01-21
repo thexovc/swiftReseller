@@ -21,10 +21,13 @@ const Navbar = () => {
             <div className="nav__con">
               <div className="nav__content">
                 <div className="bar"></div>
-                <div className="nav__center">
-                  <img src={logo} alt="" />
-                  <p>Swift</p>
-                </div>
+                <NavLink to="/">
+                  <div className="nav__center !text-white">
+                    <img src={logo} alt="" />
+                    <p>Swift</p>
+                  </div>
+                </NavLink>
+
                 <div onClick={openState} className="bar">
                   <FiMenu className="menu__icon" />
                 </div>

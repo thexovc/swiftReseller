@@ -23,8 +23,8 @@ const Sidebar = () => {
             {/* mobile */}
             <div className="Navbar md:hidden">
                 <div className="left__nav">
-                    <NavLink to={`/profile`} ><BiUserCircle className="navbar__menubar" /></NavLink>
-                    <NavLink to={`/`} ><p className="text-2xl flex font-black items-center"> <img src={logo} className="w-[50px]" /> Swift</p> </NavLink>
+                    <NavLink to={`/profile`} ><BiUserCircle className="navbar__menubar !text-white" /></NavLink>
+                    <NavLink to={`/`} ><p className="text-2xl flex font-black items-center !text-white"> <img src={logo} className="w-[50px]" /> Swift</p> </NavLink>
                     <AiOutlineMenu onClick={() => setIsOpen(true)} className="navbar__menubar" />
                 </div>
             </div>
