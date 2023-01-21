@@ -40,8 +40,8 @@ const NewOrder = () => {
 
                     <div className="neworder__type">
                         <div className="neworder__option">
-                            <p className={`flex gap-2 items-center text-lg md:text-xl p-4 rounded-xl cursor-pointer ${!massOrder ? "bg-[#C8D7FF]" : ""}`} onClick={() => setMassOrder(false)}> <span><FiCopy /></span> Single Order</p>
-                            <p className={`flex gap-2 items-center text-lg md:text-xl ${massOrder ? "bg-[#C8D7FF]" : ""} cursor-pointer p-4 rounded-xl`} onClick={() => setMassOrder(true)}> <span><GiDiamondTrophy /></span> Mass Order</p>
+                            <p className={`flex gap-2 items-center text-sm md:text-xl p-4 rounded-xl cursor-pointer ${!massOrder ? "bg-[#C8D7FF]" : ""}`} onClick={() => setMassOrder(false)}> <span><FiCopy /></span> Single Order</p>
+                            <p className={`flex gap-2 items-center text-sm md:text-xl ${massOrder ? "bg-[#C8D7FF]" : ""} cursor-pointer p-4 rounded-xl`} onClick={() => setMassOrder(true)}> <span><GiDiamondTrophy /></span> Mass Order</p>
                         </div>
 
                         {!massOrder && (
