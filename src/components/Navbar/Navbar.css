@@ -1,0 +1,171 @@
+.nav__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  background-color: #081123;
+  color: #ffffff;
+  padding: 7px 0;
+  z-index: 999999;
+}
+
+.nav__con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  z-index: 999999;
+}
+
+.closed {
+  display: none;
+}
+
+.nav__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between !important;
+  align-items: center;
+  width: 95%;
+}
+
+.nav__left {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  gap: 50px;
+}
+
+.nav__item {
+  cursor: pointer;
+  color: white;
+}
+
+.nav__center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav__center>p {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.nav__center>img {
+  width: 60px;
+  height: auto;
+}
+
+.nav__right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  gap: 100px;
+}
+
+.nav__right {
+  cursor: pointer;
+}
+
+.signup {
+  display: flex;
+  border-radius: 20px;
+  border: 2px solid #c8d7ff;
+  padding: 8px 20px;
+}
+
+.bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu__icon {
+  font-size: 35px;
+}
+
+.s__nav__items {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.s__nav__content {
+  display: flex;
+  flex-direction: column;
+  /* width: 80%; */
+  color: white;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #081123;
+}
+
+.s__nav__item {
+  padding: 20px 45px;
+}
+
+.s__signup {
+  padding: 10px 12px;
+  background: #f0884d;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.active {
+  color: #f0884d;
+}
+
+/* media query */
+
+/* @media screen and (min-width: 1400px) {
+    
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+} */
+
+@media screen and (min-width: 1400px) {}
+
+@media screen and (max-width: 1400px) {}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {
+  .nav__right {
+    gap: 70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav__left {
+    gap: 30px;
+  }
+
+  .nav__right {
+    gap: 50px;
+  }
+}
+
+@media screen and (max-width: 576px) {}

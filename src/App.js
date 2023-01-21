@@ -1,38 +1,41 @@
-import React, { useContext, useEffect, useState } from 'react';
-import { Routes, Route } from "react-router-dom";
-import PurchaseMarket from './components/DashBoard/Market/PurchaseMarket';
-import Sidebar from './components/DashBoard/Sidebar/Sidebar';
-import AddFunds from './Pages/DashBoard/AddFunds/AddFunds';
-import Market from './Pages/DashBoard/Market/Market';
-import NewOrder from './Pages/DashBoard/NewOrder/NewOrder';
-import Ticket from './Pages/DashBoard/Ticket/Ticket';
-import './App.css'
-import Profile from './Pages/DashBoard/Profile/Profile';
-import Services from './Pages/DashBoard/Services/Services';
+import "./App.css";
+import Home from "./Pages/Home/Home";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import Login from "./Pages/Auth/Login/Login";
+import SignUp from "./Pages/Auth/SignUp/SignUp";
+import ForgotPassword from "./Pages/Auth/ForgotPassword/ForgotPassword";
+import DashBoard from "./Pages/DashBoard/DashBoard";
+import NewOrder from "./Pages/DashBoard/NewOrder/NewOrder";
+import AddFunds from "./Pages/DashBoard/AddFunds/AddFunds";
+import Ticket from "./Pages/DashBoard/Ticket/Ticket";
+import Market from "./Pages/DashBoard/Market/Market";
+import Profile from "./Pages/DashBoard/Profile/Profile";
+import Services from "./Pages/DashBoard/Services/Services";
+import PurchaseMarket from "./components/DashBoard/Market/PurchaseMarket";
+import Sidebar from "./components/DashBoard/Sidebar/Sidebar";
 
 function App() {
-
   return (
-    <>
-      <div className='app__main'>
-        <div className='sidebar__main__con'>
-          <Sidebar />
-        </div>
-        <div className='app__routes'>
-          <Routes>
-            <Route path='/addfund' element={<AddFunds />} />
-            <Route path='/ticket' element={<Ticket />} />
-            <Route path='/market' element={<Market />} />
-            <Route path='/profile' element={<Profile />} />
-            <Route path='/service' element={<Services />} />
-            <Route path='/purchase_market' element={<PurchaseMarket />} />
-            <Route path='/neworder' element={<NewOrder />} />
-          </Routes>
-        </div>
-      </div>
-    </>
-  );
+    <div className="App">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<SignUp />} />
+        <Route path="/forgotpassword" element={<ForgotPassword />} />
 
+
+        {/* dashboard */}
+        <Route path='/neworder' element={<NewOrder />} />
+        <Route path='/addfund' element={<AddFunds />} />
+        <Route path='/ticket' element={<Ticket />} />
+        <Route path='/market' element={<Market />} />
+        <Route path='/profile' element={<Profile />} />
+        <Route path='/service' element={<Services />} />
+        <Route path='/purchase_market' element={<PurchaseMarket />} />
+
+      </Routes>
+    </div>
+  );
 }
 
 export default App;

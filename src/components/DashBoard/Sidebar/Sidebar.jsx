@@ -44,7 +44,7 @@ const Sidebar = () => {
                             <NavLink className="sidebar__links gap-2 items-center" onClick={handleClick} to="/neworder">
                                 <FaShoppingCart /> New Order
                             </NavLink>
-                            <NavLink className="sidebar__links gap-2 items-center" onClick={handleClick} to="/login">
+                            <NavLink className="sidebar__links gap-2 items-center" onClick={handleClick} to="/">
                                 <CgLoadbarDoc /> Order
                             </NavLink>
                             <NavLink className="sidebar__links gap-2 items-center" onClick={handleClick} to="/market">

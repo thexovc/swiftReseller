@@ -1,0 +1,149 @@
+.services__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  color: white;
+}
+
+.services__content {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.services__content > h2 {
+  font-size: 30px;
+}
+
+.services__cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 60px;
+}
+
+.services__card {
+  /* align-items: flex-start;
+  justify-content: flex-start; */
+  border: 2px solid #a6c4ff;
+  background-color: #2a3b68;
+  width: 90%;
+  border-radius: 10px;
+  position: relative;
+  padding: 40px 20px 10px 10px;
+}
+
+.services__card__content {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.services__image {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.services__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  gap: 10px;
+}
+.services__text > h4 {
+  font-size: 20px;
+}
+
+.image {
+  width: 45px;
+  position: absolute;
+  bottom: 78%;
+  border-radius: 4px;
+  /* left: 2%; */
+}
+/* 
+.image1 {
+  width: 110px;
+  position: absolute;
+  bottom: 45%;
+  border-radius: 4px;
+  left: -2.3%;
+} */
+
+/* media query */
+
+/* @media screen and (min-width: 1400px) {
+    
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+} */
+
+@media screen and (min-width: 1400px) {
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+  .services__content {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .services__card__content {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 20px;
+  }
+  .services__card {
+    border: 2px solid #a6c4ff;
+    background-color: #2a3b68;
+    width: 98%;
+    border-radius: 10px;
+    position: relative;
+    padding: 20px 20px 10px 10px;
+  }
+
+  .image {
+    width: 55px;
+    position: relative;
+    border-radius: 4px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+}

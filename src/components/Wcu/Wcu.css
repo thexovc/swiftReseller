@@ -1,0 +1,90 @@
+.wcu__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  color: white;
+}
+
+.wcu__content {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.wcu__content > h2 {
+  font-size: 30px;
+}
+
+.wcu__cards {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  color: white;
+  gap: 50px;
+}
+
+.wcu__card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.wcu__icon {
+  color: white;
+  font-size: 4rem !important;
+}
+
+.wcu__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  width: 100%;
+  gap: 10px;
+}
+
+@media screen and (min-width: 1400px) {
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+  .wcu__cards {
+    display: grid;
+    grid-template-columns: auto;
+
+    gap: 70px;
+  }
+  .wcu__icon {
+    color: white;
+    font-size: 3rem !important;
+  }
+
+  .wcu__content {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+}
