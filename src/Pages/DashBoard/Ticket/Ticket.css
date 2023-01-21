@@ -1,8 +1,9 @@
 .ticket {
-    width: 95%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     padding-top: 20px;
+    align-items: center;
     padding-bottom: 40px;
 }
 
@@ -46,6 +47,7 @@
 .ticket__con {
     width: 100%;
     display: flex;
+    justify-content: center;
     gap: 40px;
     margin-bottom: 20px;
 
