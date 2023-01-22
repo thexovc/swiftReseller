@@ -11,8 +11,8 @@ const Market = () => (
         </div>
         <div className='app__routes'>
             <div className='market'>
-                {/* <MarketAccount /> */}
-                <PurchaseMarket />
+                <MarketAccount />
+                {/* <PurchaseMarket /> */}
             </div>
             <Footer />
         </div>

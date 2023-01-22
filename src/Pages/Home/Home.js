@@ -15,7 +15,7 @@ const Home = () => {
       <Intro />
       <Wcu />
       <Services />
-
+      <Footer/>
     </div>
   );
 };
