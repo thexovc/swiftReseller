@@ -1,4 +1,5 @@
 import Sidebar from '../../../components/DashBoard/Sidebar/Sidebar'
+import Footer from '../../../components/Footer/Footer'
 import './Services.css'
 
 const Services = () => {
@@ -75,6 +76,7 @@ const Services = () => {
                         </div>
                     </div>
                 </div>
+                <Footer />
             </div>
         </div>
     )

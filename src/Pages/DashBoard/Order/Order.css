@@ -1,0 +1,47 @@
+.refill {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+}
+
+.refill__table {
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.order__filter {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.order__filter>p {
+    padding: 5px 10px;
+    color: #2A3B68;
+}
+
+@media screen and (max-width: 768px) {
+
+    .refill {
+        padding: 10px 0;
+    }
+
+    .refill__table {
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .order__filter {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

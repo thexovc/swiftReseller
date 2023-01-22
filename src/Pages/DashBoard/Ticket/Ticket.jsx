@@ -1,4 +1,5 @@
 import Sidebar from '../../../components/DashBoard/Sidebar/Sidebar'
+import Footer from '../../../components/Footer/Footer'
 import './Ticket.css'
 
 const Ticket = () => {
@@ -121,6 +122,7 @@ const Ticket = () => {
 
                     </div>
                 </div>
+                <Footer />
             </div>
         </div>
     )

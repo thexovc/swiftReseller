@@ -1,6 +1,7 @@
 import MarketAccount from '../../../components/DashBoard/Market/MarketAccount'
 import PurchaseMarket from '../../../components/DashBoard/Market/PurchaseMarket'
 import Sidebar from '../../../components/DashBoard/Sidebar/Sidebar'
+import Footer from '../../../components/Footer/Footer'
 import './Market.css'
 
 const Market = () => (
@@ -10,9 +11,10 @@ const Market = () => (
         </div>
         <div className='app__routes'>
             <div className='market'>
-                <MarketAccount />
-                {/* <PurchaseMarket /> */}
+                {/* <MarketAccount /> */}
+                <PurchaseMarket />
             </div>
+            <Footer />
         </div>
     </div>
 )

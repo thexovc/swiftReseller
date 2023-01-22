@@ -2,6 +2,7 @@ import { useState } from 'react'
 import ManualFund from '../../../components/DashBoard/AddFunds/ManualFund'
 import OnlineFund from '../../../components/DashBoard/AddFunds/OnlineFund'
 import Sidebar from '../../../components/DashBoard/Sidebar/Sidebar'
+import Footer from '../../../components/Footer/Footer'
 import './AddFunds.css'
 
 const AddFunds = () => {
@@ -30,6 +31,8 @@ const AddFunds = () => {
 
                     </div>
                 </div>
+
+                <Footer />
             </div>
         </div>
     )

@@ -13,6 +13,10 @@ import Profile from "./Pages/DashBoard/Profile/Profile";
 import Services from "./Pages/DashBoard/Services/Services";
 import PurchaseMarket from "./components/DashBoard/Market/PurchaseMarket";
 import Sidebar from "./components/DashBoard/Sidebar/Sidebar";
+import Order from "./Pages/DashBoard/Order/Order";
+import MarketTran from "./Pages/DashBoard/MarketTran/MarketTran";
+import PaymentTran from "./Pages/DashBoard/PaymentTran/PaymentTran";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -32,8 +36,12 @@ function App() {
         <Route path='/profile' element={<Profile />} />
         <Route path='/service' element={<Services />} />
         <Route path='/purchase_market' element={<PurchaseMarket />} />
+        <Route path='/order' element={<Order />} />
+        <Route path='/market_transaction' element={<MarketTran />} />
+        <Route path='/payment_transaction' element={<PaymentTran />} />
 
       </Routes>
+
     </div>
   );
 }

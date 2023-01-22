@@ -44,7 +44,7 @@ const Sidebar = () => {
                             <NavLink className="sidebar__links gap-2 items-center" onClick={handleClick} to="/neworder">
                                 <FaShoppingCart /> New Order
                             </NavLink>
-                            <NavLink className="sidebar__links gap-2 items-center" onClick={handleClick} to="/">
+                            <NavLink className="sidebar__links gap-2 items-center" onClick={handleClick} to="/order">
                                 <CgLoadbarDoc /> Order
                             </NavLink>
                             <NavLink className="sidebar__links gap-2 items-center" onClick={handleClick} to="/market">
@@ -53,7 +53,7 @@ const Sidebar = () => {
                             <NavLink className="sidebar__links gap-2 items-center" onClick={handleClick} to="/service">
                                 <GiServerRack /> Services
                             </NavLink>
-                            <NavLink className="sidebar__links gap-2 items-center" onClick={handleClick} to="/dogecoin">
+                            <NavLink className="sidebar__links gap-2 items-center" onClick={handleClick} to="/market_transaction">
                                 <MdBusiness /> Market Transaction
                             </NavLink>
                             <NavLink className="sidebar__links gap-2 items-center" onClick={handleClick} to="/bitcoin">
@@ -65,10 +65,10 @@ const Sidebar = () => {
                             <NavLink className="sidebar__links gap-2 items-center" onClick={handleClick} to="/addfund">
                                 <BiMoney /> Add Funds
                             </NavLink>
-                            <NavLink className="sidebar__links gap-2 items-center" onClick={handleClick} to="/leverage">
+                            <NavLink className="sidebar__links gap-2 items-center" onClick={handleClick} to="/payment_transaction">
                                 <MdBusiness /> Payment Transactions
                             </NavLink>
-                            <NavLink className="sidebar__links gap-2 items-center" onClick={handleClick} to="/copy-trader">
+                            <NavLink className="sidebar__links gap-2 items-center" onClick={handleClick} to="/">
                                 <FiLogOut /> Logout
                             </NavLink>
 
@@ -81,12 +81,13 @@ const Sidebar = () => {
             {/* desktop */}
             <div className="sidebar-con desktop md:block" >
 
+
                 <nav class="sidebar pt-4" >
                     <ul>
                         <NavLink className="sidebar__links gap-2 items-center" onClick={handleClick} to="/neworder">
                             <FaShoppingCart /> New Order
                         </NavLink>
-                        <NavLink className="sidebar__links gap-2 items-center" onClick={handleClick} to="/login">
+                        <NavLink className="sidebar__links gap-2 items-center" onClick={handleClick} to="/order">
                             <CgLoadbarDoc /> Order
                         </NavLink>
                         <NavLink className="sidebar__links gap-2 items-center" onClick={handleClick} to="/market">
@@ -95,7 +96,7 @@ const Sidebar = () => {
                         <NavLink className="sidebar__links gap-2 items-center" onClick={handleClick} to="/service">
                             <GiServerRack /> Services
                         </NavLink>
-                        <NavLink className="sidebar__links gap-2 items-center" onClick={handleClick} to="/dogecoin">
+                        <NavLink className="sidebar__links gap-2 items-center" onClick={handleClick} to="/market_transaction">
                             <MdBusiness /> Market Transaction
                         </NavLink>
                         <NavLink className="sidebar__links gap-2 items-center" onClick={handleClick} to="/bitcoin">
@@ -107,10 +108,10 @@ const Sidebar = () => {
                         <NavLink className="sidebar__links gap-2 items-center" onClick={handleClick} to="/addfund">
                             <BiMoney /> Add Funds
                         </NavLink>
-                        <NavLink className="sidebar__links gap-2 items-center" onClick={handleClick} to="/leverage">
+                        <NavLink className="sidebar__links gap-2 items-center" onClick={handleClick} to="/payment_transaction">
                             <MdBusiness /> Payment Transactions
                         </NavLink>
-                        <NavLink className="sidebar__links gap-2 items-center" onClick={handleClick} to="/copy-trader">
+                        <NavLink className="sidebar__links gap-2 items-center" onClick={handleClick} to="/">
                             <FiLogOut /> Logout
                         </NavLink>
 

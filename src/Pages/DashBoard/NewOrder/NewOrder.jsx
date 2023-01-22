@@ -7,6 +7,7 @@ import MassOrder from '../../../components/DashBoard/NewOrder/MassOrder'
 import SingleOrder from '../../../components/DashBoard/NewOrder/SingleOrder'
 import { useState } from 'react'
 import Sidebar from '../../../components/DashBoard/Sidebar/Sidebar'
+import Footer from '../../../components/Footer/Footer'
 
 const NewOrder = () => {
     const [massOrder, setMassOrder] = useState(false)
@@ -59,6 +60,7 @@ const NewOrder = () => {
                         </div>
                     </div>
                 </div>
+                <Footer />
             </div>
         </div>
     )

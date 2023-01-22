@@ -1,4 +1,5 @@
 import Sidebar from '../../../components/DashBoard/Sidebar/Sidebar'
+import Footer from '../../../components/Footer/Footer'
 import './Profile.css'
 
 const Profile = () => {
@@ -102,6 +103,7 @@ const Profile = () => {
                         </div>
                     </div>
                 </div>
+                <Footer />
             </div>
         </div>
     )
