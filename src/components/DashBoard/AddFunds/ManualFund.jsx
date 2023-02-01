@@ -7,7 +7,7 @@ const ManualFund = () => {
                 <div className="onlinefund__payment">
                     <h1>Method</h1>
                     <select name="" id="" disabled>
-                        <option value="Flutterwave">Naira Bank Transfer (Min $10 and M  </option>
+                        <option value="Flutterwave">Naira Bank Transfer (Min $10 and Max $30000)  </option>
                     </select>
                 </div>
                 <div className="onlinefund__amount">

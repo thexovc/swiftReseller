@@ -17,6 +17,8 @@ import Order from "./Pages/DashBoard/Order/Order";
 import MarketTran from "./Pages/DashBoard/MarketTran/MarketTran";
 import PaymentTran from "./Pages/DashBoard/PaymentTran/PaymentTran";
 import Footer from "./components/Footer/Footer";
+import News from "./Pages/News/News";
+import Settings from "./Pages/Settings/Settings";
 
 function App() {
   return (
@@ -26,6 +28,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/forgotpassword" element={<ForgotPassword />} />
+        <Route path="/news" element={<News />} />
 
 
         {/* dashboard */}
@@ -39,6 +42,8 @@ function App() {
         <Route path='/order' element={<Order />} />
         <Route path='/market_transaction' element={<MarketTran />} />
         <Route path='/payment_transaction' element={<PaymentTran />} />
+        <Route path='/settings' element={<Settings />} />
+
 
       </Routes>
 

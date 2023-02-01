@@ -94,7 +94,7 @@
 }
 
 .sidebar__links:hover {
-    font-size: 1.2rem;
+    font-size: 16px;
 }
 
 @media (min-width: 321px) and (max-width: 490px) {
