@@ -45,6 +45,7 @@ function App() {
         <Route path='/settings' element={<Settings />} />
 
 
+
       </Routes>
 
     </div>

@@ -1,3 +1,4 @@
+import PaymentIntegration from '../../components/DashBoard/Settings/PaymentIntegration/PaymentIntegration'
 import Website from '../../components/DashBoard/Settings/Website/Website'
 import Website_Noti from '../../components/DashBoard/Settings/Website_Noti/Website_Noti'
 import Sidebar from '../../components/DashBoard/Sidebar/Sidebar'
@@ -31,7 +32,8 @@ const Settings = () => {
 
                     <div className="settings__input !w-[95%] md:w-[100%] mt-10 !bg-white p-10 gap-5">
                         {/* <Website /> */}
-                        <Website_Noti />
+                        {/* <Website_Noti /> */}
+                        <PaymentIntegration />
 
                     </div>
                 </div>
